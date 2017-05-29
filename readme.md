@@ -1,5 +1,6 @@
-Simple flask app with
-hat two routes:
+Simple flask app with database connection
+
+has two routes:
 "/" returns 'Hello world'
 "/from-db"  returns stringified entry from pg_stat
 
@@ -10,4 +11,4 @@ pip install -r requirements.txt
 
 
 App starting:
-python hello.py
+python flask_app.py
